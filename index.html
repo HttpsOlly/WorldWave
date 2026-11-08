@@ -61,9 +61,9 @@
     <div id="mapContainer" class="flex-1 h-full z-10"></div>
   </div>
 
-<footer class="bg-slate-900 border-t border-slate-800 px-4 py-3 flex flex-row items-center justify-between gap-3 shrink-0 z-20 shadow-2xl">
+<footer class="bg-slate-900 border-t border-slate-800 px-4 py-3 flex flex-row items-center justify-between gap-3 shrink-0 z-20 shadow-2xl relative">
     
-    <div class="flex items-center space-x-3 overflow-hidden flex-1 min-w-0">
+    <div class="flex items-center space-x-3 overflow-hidden flex-1 min-w-0 pr-2">
       <div class="relative shrink-0">
         <div id="stationIconBox" class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center overflow-hidden shadow-inner">
           <i id="defaultIcon" class="fa-solid fa-radio text-lg sm:text-xl text-pink-400"></i>
@@ -84,6 +84,7 @@
       </div>
     </div>
 
+    <!-- Center Play Button on Desktop / Right on Mobile -->
     <div class="flex items-center space-x-2 md:absolute md:left-1/2 md:-translate-x-1/2 shrink-0">
       <button id="playButton" class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-400 hover:to-rose-400 text-white shadow-lg shadow-pink-500/25 flex items-center justify-center transition-transform hover:scale-105 shrink-0">
         <i class="fa-solid fa-play ml-0.5 text-xs sm:text-sm"></i>
