@@ -397,6 +397,7 @@ if (searchOnDesktop) {
   searchOnDesktop.addEventListener('input', (event) => handleSearch(event.target.value));
 }
 
+
 function setupAudioVisualizer() {
   if (!audioContext) {
     const AudioContextClass = window.AudioContext || window.webkitAudioContext;
